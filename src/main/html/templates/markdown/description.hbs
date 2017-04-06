@@ -1,0 +1,16 @@
+---
+description: The description area in the handlebars files is used to display a description at your topic. It uses
+    markdown syntax. It is displayed with the handlebars syntax <code>{{{this.description}}}</code>
+options:
+---
+<div>
+    <p>{{{this.description}}}</p>
+    <ul>
+        {{#each this.options}}
+            <li>{{{option}}}</li>
+        {{/each}}
+    </ul>
+    <figure class="styleguide-figure">
+        <pre><code class="markdown">---<br>description: The description area in the handlebars files is used to display a description at your topic.<br>---</code></pre>
+    </figure>
+</div>

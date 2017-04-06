@@ -1,0 +1,22 @@
+---
+description: The <code>styleguide-figur</code> css class shows the used code in the <code>styleguide-example</code> area.
+options:
+- option: |
+    <code>styleguide-figur</code> attribute. Warps the escaped code into a container with nice code coloring.
+---
+<div>
+    <p>{{{this.description}}}</p>
+    <ul>
+        {{#each this.options}}
+            <li>{{{option}}}</li>
+        {{/each}}
+    </ul>
+    <div class="styleguide-example">
+        <figure class="styleguide-figure">
+            <pre><code class="html">&lt;!--This class wraps your code into a container--&gt;<br>&lt;div class=&quot;styleguide-example&quot;&gt;<br>    &lt;p&gt;Example area&lt;/p&gt;<br>&lt;/div&gt;</code></pre>
+        </figure>
+    </div>
+    <figure class="styleguide-figure">
+        <pre><code class="html">&lt;!--This code is used in the example above--&gt;<br>&lt;figure class=&quot;styleguide-figure&quot;&gt;<br>   &lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;!--This class wraps your code into a container--&amp;gt;&lt;br&gt;&amp;lt;div class=&amp;quot;styleguide-example&amp;quot;&amp;gt;&lt;br&gt;    &amp;lt;p&amp;gt;Example area&amp;lt;/p&amp;gt;&lt;br&gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;<br>&lt;/figure&gt;</code></pre>
+    </figure>
+</div>

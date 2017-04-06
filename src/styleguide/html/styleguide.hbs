@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:irq="http://irquest.com/xml">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>IRQuest Styleguide</title>
+
+        <!--Vendor styles-->
+        {{#each vendorStyle}}
+            <link rel="stylesheet" type="text/css" href="{{this}}"/>
+        {{/each}}
+        <!--Vendor styles-->
+
+        <!--Costume styles-->
+        {{#each customStyle}}
+            <link rel="stylesheet" type="text/css" href="{{this}}"/>
+        {{/each}}
+        <!--Costume styles-->
+
+        <!--Vendor scripts!-->
+        {{#each vendorScript}}
+            <script type="text/javascript" src="{{this}}"></script>
+        {{/each}}
+        <!--Vendor scripts!-->
+
+        <!--Costume script-->
+        {{#each customScript}}
+            <script type="text/javascript" src="{{this}}"></script>
+        {{/each}}
+        <!--Costume script-->
+    </head>
+    <body>
+        <irq:layout></irq:layout>
+        <div id="wrapper">
+            {{> sidebar}}
+            <!-- Page content -->
+            <div id="page-content-wrapper">
+                <div class="container col-xs-12">
+                    {{> header }}
+                    {{> content}}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "name": "simple-styleguide",
+  "author": "David Kogan <david_kogan@hotmail.de> (http://www.davidkogan.de)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "",
+  "version": "1.0.0",
+  "description": "This is a template for a simple style guide",
+  "keywords": [
+    "template",
+    "styleguide",
+    "style",
+    "guide",
+    "handelbars",
+    "generate"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "grunt": "^1.0.1",
+    "grunt-assemble": "^0.5.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-compile-handlebars": "^2.0.2",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-qunit": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "handlebars-helpers": "^0.8.0",
+    "highlightjs": "^9.8.0",
+    "jquery": "^3.2.1",
+    "load-grunt-tasks": "^3.5.2",
+    "styleguide-utils": "^1.0.2"
+  }
+}

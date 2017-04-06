@@ -1,0 +1,22 @@
+---
+description: The <code>styleguide-example</code> css class shows the live code of your function or class.
+options:
+- option: |
+    <code>styleguide-example</code> attribute. Warps your code into a nice looking example container.
+---
+<div>
+    <p>{{{this.description}}}</p>
+    <ul>
+        {{#each this.options}}
+            <li>{{{option}}}</li>
+        {{/each}}
+    </ul>
+    <div class="styleguide-example">
+        <div class="styleguide-example">
+            <p>Example area</p>
+        </div>
+    </div>
+    <figure class="styleguide-figure">
+        <pre><code class="html">&lt;!--This class wraps your code into a container--&gt;<br>&lt;div class=&quot;styleguide-example&quot;&gt;<br>    &lt;p&gt;Example area&lt;/p&gt;<br>&lt;/div&gt;</code></pre>
+    </figure>
+</div>
