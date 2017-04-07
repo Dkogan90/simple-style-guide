@@ -1,6 +1,6 @@
 {
   "name": "simple-styleguide",
-  "author": "David Kogan <david_kogan@hotmail.de> (http://www.davidkogan.de)",
+  "author": "David Kogan <david.kogan@interrrogare.de>",
   "licenses": [
     {
       "type": "MIT",
@@ -18,11 +18,6 @@
     "handelbars",
     "generate"
   ],
-  "homepage": "",
-  "bugs": {
-    "url": "",
-    "email": ""
-  },
   "engines": {
     "node": "6.9.4"
   },
