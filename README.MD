@@ -8,7 +8,7 @@ Quickly describe how to install your project and how to get it running
 
 1. Install Styleguide dependencies
 
-        npm install styleguide-utils --registry=http://nexus.interrogare.local/content/repositories/npm-releases/ --save-dev
+        git clone https://YOUR_USERNAME@bitbucket.org/interrogaregmbh/simple-styleguide.git
 
 2. Install Node dependencies
 
