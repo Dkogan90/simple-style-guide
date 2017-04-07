@@ -132,6 +132,7 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.registerTask('default', ['develop']);
   grunt.registerTask('develop', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble', 'connect:livereload', 'watch']);
   grunt.registerTask('build', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble', 'clean:post']);
   grunt.registerTask('liverel', ['clean:dest', 'copy','uglify', 'sass', 'assemble:prod', 'assemble:styleGuide']);
