@@ -1,6 +1,8 @@
 {
   "name": "simple-style-guide",
   "author": "David kogan <david_kogan@hotmail.de>",
+  "homepage": "https://github.com/Dkogan90/simple-style-guide",
+  "bugs": "https://github.com/Dkogan90/simple-style-guide/issues",
   "licenses": [
     {
       "type": "MIT",
