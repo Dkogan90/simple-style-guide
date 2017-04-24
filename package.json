@@ -1,6 +1,6 @@
 {
-  "name": "simple-styleguide",
-  "author": "David Kogan <david.kogan@interrrogare.de>",
+  "name": "simple-style-guide",
+  "author": "David kogan <david_kogan@hotmail.de>",
   "licenses": [
     {
       "type": "MIT",
@@ -8,11 +8,11 @@
     }
   ],
   "main": "",
-  "version": "1.0.1",
-  "description": "This is a template for a simple style guide",
+  "version": "1.0.2",
+  "description": "This is a simple style guide generator, which generates a style guide simular to the bootstrap documention.",
   "keywords": [
     "template",
-    "styleguide",
+    "style guide",
     "style",
     "guide",
     "handelbars",
@@ -24,16 +24,17 @@
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "grunt": "^1.0.1",
-    "grunt-assemble": "^0.5.0",
+    "grunt-assemble": "^0.6.3",
     "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.3.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-test": "^0.13.2",
     "highlightjs": "^9.8.0",
     "jquery": "^3.2.1",
-    "load-grunt-tasks": "^3.5.2"
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.2.0"
   }
 }
