@@ -92,7 +92,9 @@ The upcoming plans are:
 
 ## Support & Ownership
 
-Feel free to ask [David Kogan](david_kogan@hotmail.de) if you need some support when there are any questions left or if you need some support.
+Feel free to ask [David Kogan](<david_kogan@hotmail.de>) if you need some support when there are any questions left or if you need some support.
 
+See also my Homepage [www.davidkogan.de](www.davidkogan.de).
 
+I wrote a small [blog post](http://www.davidkogan.de/simple-style-guide/) for this tool. Feel free to visit it.
 

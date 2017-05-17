@@ -10,7 +10,7 @@
     }
   ],
   "main": "",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a simple style guide generator, which generates a style guide simular to the bootstrap documention.",
   "keywords": [
     "template",
