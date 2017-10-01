@@ -169,8 +169,8 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', ['develop']);
-  grunt.registerTask('develop', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble:prod', 'assemble:styleguide', 'connect:livereload', 'watch']);
-  grunt.registerTask('build', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble:prod', 'assemble:styleguide', 'clean:post']);
+  grunt.registerTask('develop', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble:prod', 'assemble:styleGuide', 'connect:livereload', 'watch']);
+  grunt.registerTask('build', ['clean:dest', 'copy', 'uglify', 'sass', 'assemble:prod', 'assemble:styleGuide', 'clean:post']);
   grunt.registerTask('liverel', ['clean:dest', 'copy','uglify', 'sass', 'assemble:prod', 'assemble:styleGuide']);
   grunt.registerTask('test', ['clean:dest', 'assemble:dev', 'mochaTest', 'clean:post']);
 };

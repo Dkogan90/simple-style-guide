@@ -83,13 +83,6 @@ You can upload the content of the `dest` folder to a web server.
 
 The code highlighting is done with [highlightJs](https://highlightjs.org/).
 
-## Upcoming
-
-The upcoming plans are:
-
-1. Create handlebars partials to handle the example and figure areas of templates.
-2. Create handlebars helper to create a better locking code example area.
-
 ## Support & Ownership
 
 Feel free to ask [David Kogan](<david_kogan@hotmail.de>) if you need some support when there are any questions left or if you need some support.

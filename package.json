@@ -10,7 +10,7 @@
     }
   ],
   "main": "",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a simple style guide generator, which generates a style guide simular to the bootstrap documention.",
   "keywords": [
     "template",
@@ -33,6 +33,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^2.3.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-mocha-test": "^0.13.2",
     "highlightjs": "^9.8.0",
     "jquery": "^3.2.1",
